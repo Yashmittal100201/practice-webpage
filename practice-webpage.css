@@ -1,0 +1,33 @@
+.div1 {
+            height: auto;
+            width: 100%;
+            background-color: cadetblue;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            justify-content: space-evenly;
+            flex-wrap: wrap;
+        }
+
+        #box {
+            display: flex;
+            text-align: center;
+            align-items: center;
+            justify-content: center;
+            background-color: tomato;
+            border: 3px solid black;
+            height: 200px;
+            /* width: 200px; */
+            flex: 1 1 200px;
+            margin: 10px;
+        }
+        .box2 img{
+            
+            /* display: flex;enter; */
+            /* display: inline-block; */
+            height:90%;
+            justify-content: center;
+            text-align: center;
+            align-items: center;
+            width: 80%;
+        }
